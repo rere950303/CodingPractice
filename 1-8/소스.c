@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	int a;
-	int result;
+	int a = 0;
+	int result = 0;
 	printf("정수값을 입력하세요:");
 	scanf_s("%d", &a);
 
