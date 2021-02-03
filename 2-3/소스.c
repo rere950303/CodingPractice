@@ -12,10 +12,10 @@ int main(void)
 	scanf("%d", &b);
 
 	if (a > b)
-		printf("정수2개의 비율:%d%%\n", b*100/a);
+		printf("정수2개의 비율:%d%%\n", b * 100 / a);
 
 	else if (a < b)
-		printf("정수2개의 비율:%d%%\n", a*100/b);
+		printf("정수2개의 비율:%d%%\n", a * 100 / b);
 
 	else
 		printf("정수2개의 비율:%d%%\n", 100);
