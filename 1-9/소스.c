@@ -11,5 +11,5 @@ int main(void)
 	result = a - 6;
 	printf("%d에서 6을 빼면 %d입니다.", a, result);
 
-    return 0;
+	return 0;
 }
