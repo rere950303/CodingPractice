@@ -4,7 +4,6 @@ int main(void)
 {
 	int a = 0;
 	int b = 0;
-	int dup;
 	
 	printf("정수1 입력:\n");
 	scanf("%d", &a);
@@ -12,7 +11,7 @@ int main(void)
 	printf("정수2 입력:\n");
 	scanf("%d", &b);
 
-	dup = a * b;
+	int dup = a * b;
 
 	printf("곱셈결과:%d\n", dup);
 
