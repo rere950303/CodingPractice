@@ -6,13 +6,11 @@ int main(void)
 	int b = 0;
 	int dup;
 	
-	
-	
 	printf("정수1 입력:\n");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 
 	printf("정수2 입력:\n");
-	scanf_s("%d", &b);
+	scanf("%d", &b);
 
 	dup = a * b;
 

@@ -7,10 +7,10 @@ int main(void)
 	int average = 0;
 
 	printf("정수1:");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 
 	printf("정수2:");
-	scanf_s("%d", &b);
+	scanf("%d", &b);
 
 	average = (a + b) / 2;
 

@@ -3,8 +3,9 @@
 int main(void)
 {
 	int a = 0;
+
 	printf("정수를 입력하세요:");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 
 	printf("10을 더한값:%d\n", a + 10);
 	printf("10을 뺀값:%d\n", a - 10);

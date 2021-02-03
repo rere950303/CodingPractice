@@ -5,16 +5,16 @@ int main(void)
 	int a = 0;
 	int b = 0;
 	int c = 0;
-	int add;
+	int add = 0;
 
 	printf("정수1 입력하세요:");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 
 	printf("정수2 입력하세요:");
-	scanf_s("%d", &b);
+	scanf("%d", &b);
 
 	printf("정수3 입력하세요:");
-	scanf_s("%d", &c);
+	scanf("%d", &c);
 
 	add = a + b + c;
 

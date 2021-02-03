@@ -8,10 +8,10 @@ int main(void)
 	int multiple = 0;
 
 	printf("정수1을 입력하세요:");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 
 	printf("정수2을 입력하세요:");
-	scanf_s("%d", &b);
+	scanf("%d", &b);
 
 	add = a + b;
 	multiple = a * b;
