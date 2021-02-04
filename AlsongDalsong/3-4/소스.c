@@ -10,7 +10,7 @@ int main(void)
 	if (a > 0)
 		printf("절댓값:%d", a);
 	else if (a < 0)
-		printf("절댓값:%d", - a);
+		printf("절댓값:%d", -a);
 	else
 		printf("절댓값:0");
 

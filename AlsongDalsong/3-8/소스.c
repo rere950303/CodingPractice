@@ -11,8 +11,8 @@ int main(void)
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 
 	int max_value = (a > b) ? a : b;
-	    max_value = (c > max_value) ? c : max_value;
-	    max_value = (d > max_value) ? d : max_value;
+		max_value = (c > max_value) ? c : max_value;
+		max_value = (d > max_value) ? d : max_value;
 
 	printf("최댓값:%d", max_value3);
 

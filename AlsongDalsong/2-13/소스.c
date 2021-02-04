@@ -6,12 +6,12 @@ int main(void)
 	double weight = 0.0;
 
 	printf("키를 입력하세요:");
-	scanf("%lf", &a);
+	scanf("%lf", &height);
 
 	printf("몸무게를 입력하세요:");
-	scanf("%lf", &b);
+	scanf("%lf", &weight);
 
-	double BMI = b / ((a / 100) * (a / 100));
+	double BMI = weight / ((height / 100) * (height / 100));
 
 	printf("BMI는 %.2lf입니다", BMI);
 
