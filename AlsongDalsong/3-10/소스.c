@@ -9,10 +9,14 @@ int main(void)
 	printf("정수 3개를 입력하세요:");
 	scanf("%d %d %d", &a, &b, &c);
 
-	int Min_value1 = (a < b) ? a : b;
-	int Min_value2 = (c < Min_value1) ? c : Min_value1;
+	int min = a;
 
-	printf("최솟값:%d", Min_value2);
+	if (b < min)
+		min = b;
+	if (c < min)
+		min = c;
+
+	printf("최솟값:%d", min);
 
 	return 0;
 }

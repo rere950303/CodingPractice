@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	double a = 0.0;
-	double b = 0.0;
+	double height = 0.0;
+	double weight = 0.0;
 
 	printf("키를 입력하세요:");
 	scanf("%lf", &a);
