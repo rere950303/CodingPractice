@@ -8,8 +8,7 @@ int main(void)
 	printf("양의 정수를 입력하세요:");
 	scanf("%d", &a);
 
-	while (a > 0)
-	{
+	while (a > 0) {
 		b = a % 10;
 		a /= 10;
 		printf("%d", b);

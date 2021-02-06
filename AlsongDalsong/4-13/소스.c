@@ -5,8 +5,7 @@ int main(void)
 	int n1 = 0;
 	int count = 0;
 
-	do
-	{
+	do {
 		printf("양의 정수를 입력하세요:");
 		scanf("%d", &n1);
 

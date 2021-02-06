@@ -15,8 +15,7 @@ int main(void)
 
 	int h = lower;
 
-	while (h <= upper)
-	{
+	while (h <= upper) {
 		double std_weight = (h / 100.0) * (h / 100.0) * 22;
 		printf("%dcm의 표준몸무게:%.2lf kg\n", h, std_weight);
 		h += step;
