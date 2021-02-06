@@ -19,7 +19,7 @@ int main(void)
 	int r = no % width;
 
 	for (int k = 1; k <= r; k++)
-		printf("*");
+		printf("*\n");
 
 	return 0;
 }

@@ -49,7 +49,7 @@ int main(void)
 			if (j % 2 == 0)
 				printf("+");
 			else
-				printf("-"); 
+				printf("-\n"); 
 		}
 		break;
 	}
