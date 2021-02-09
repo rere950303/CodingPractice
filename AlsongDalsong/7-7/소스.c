@@ -9,7 +9,7 @@ int main(void)
 
 	for (int i = 31; i >= 0; i--)
 	{
-		int a = (1 << i);
+		int a = (1u << i);
 		printf("%d", ((x & a) == 0) ? 0 : 1);
 
 		if (i % 8 == 0)
