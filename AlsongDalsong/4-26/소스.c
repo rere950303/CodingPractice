@@ -42,6 +42,7 @@ int main(void)
 			else
 				printf("+");
 		}
+		printf("\n");
 		break;
 	case 1:
 		for (int j = 1; j <= r; j++)
@@ -49,8 +50,9 @@ int main(void)
 			if (j % 2 == 0)
 				printf("+");
 			else
-				printf("-\n"); 
+				printf("-"); 
 		}
+		printf("\n");
 		break;
 	}
 	return 0;
