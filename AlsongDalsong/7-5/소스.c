@@ -21,11 +21,11 @@ int main(void)
 
 	printf("%u에 2의%d제곱을 곱한 값인 a은 %u을 왼쪽으로 %d비트 움직인 값인 b와 같습니다.\n", x, n, x, n);
 
-	unsigned double c = x / pow(2, n);
-	unsigned double d = x >> n;
+	unsigned int c = x / pow(2, n);
+	unsigned int d = x >> n;
 
-	printf("c:x / (2 ^ n)= %.1lf\n", c);
-	printf("d:x >> n= %.1lf\n", d);
+	printf("c:x / (2 ^ n)= %u\n", c);
+	printf("d:x >> n= %u\n", d);
 
 	printf("%u에 2의%d제곱을 나눈 값인 c은 %u을 오른쪽으로 %d비트 움직인 값인 d와 같습니다.\n", x, n, x, n);
 

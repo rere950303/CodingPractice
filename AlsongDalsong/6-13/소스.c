@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 #define SIZE 50
-#define Fail 1
+#define Fail -1
 
 int searchr(const int v[], int key, int n);
 
@@ -32,6 +32,7 @@ int main(void)
 
 int searchr(const int v[], int key, int n)
 {
+
 	for (int i = n - 1; i >= 0; i--)
 	{
 		if (v[i] == key)

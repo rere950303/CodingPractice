@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 #define SIZE 50
-#define Fail 1
+#define Fail -1
 
 int search_idx(const int v[], int idx[], int key, int n);
 
@@ -23,12 +23,14 @@ int main(void)
 	printf("찾고자 하는 정수를 입력하세요:");
 	scanf("%d", &ky);
 
-	if ((search_idx(x1, x2, ky, number)) == 1)
+	int count = search_idx(x1, x2, ky, number);
+
+	if (count == Fail)
 		printf("탐색에 실패했습니다.");
 	else
 	{
-		printf("%d은 %d개있습니다.\n", ky, search_idx(x1, x2, ky, number));
-		for (int i = 0; i < search_idx(x1, x2, ky, number); i++)
+		printf("%d은 %d개있습니다.\n", ky, count);
+		for (int i = 0; i < count; i++)
 			printf("x1[%d]=%d\n", x2[i], ky);
 	}
 	
