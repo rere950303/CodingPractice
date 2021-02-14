@@ -26,6 +26,7 @@ int main(void)
 
 	printf("국어점수 합계:%d\n수학점수 합계:%d\n", sum1, sum2);
 	printf("국어점수 평균:%.1lf\n수학점수 평균:%.1lf\n", (double)sum1 / 6, (double)sum2 / 6);
+	printf("전체 학생의 합계:%d\n전체 학생의 평균:%.1lf\n", sum1 + sum2, (double)(sum1 + sum2) / 6);
 
 	printf("학생별 합계점수와 평균점수\n");
 	
