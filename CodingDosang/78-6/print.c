@@ -1,0 +1,11 @@
+//
+//  print.c
+//  78-6
+//
+//  Created by hyungwook on 2021/03/02.
+//
+
+#include <stdio.h>
+#include "point3d.h"
+
+struct Point3D p1 ={1.0f, 2.0f, 3.0f};
